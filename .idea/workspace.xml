@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="57dd82b5-ba76-489e-a2a4-08b876b5a399" name="Default Changelist" comment="" />
+    <list default="true" id="57dd82b5-ba76-489e-a2a4-08b876b5a399" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest_api/Controller/orderController.js" beforeDir="false" afterPath="$PROJECT_DIR$/rest_api/Controller/orderController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest_api/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/rest_api/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest_api/models/order.js" beforeDir="false" afterPath="$PROJECT_DIR$/rest_api/models/order.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest_api/routes/orderRoute.js" beforeDir="false" afterPath="$PROJECT_DIR$/rest_api/routes/orderRoute.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +20,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1m0LLwejSUzWdgcvD2qSshvm0YD" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -50,7 +60,17 @@
       <workItem from="1608714756246" duration="369000" />
       <workItem from="1608715360126" duration="3794000" />
       <workItem from="1608719343094" duration="10638000" />
-      <workItem from="1608732935725" duration="3418000" />
+      <workItem from="1608732935725" duration="3645000" />
+      <workItem from="1608743590079" duration="47000" />
+      <workItem from="1608743678247" duration="1391000" />
+      <workItem from="1608760183934" duration="433000" />
+      <workItem from="1608763607202" duration="250000" />
+      <workItem from="1608763932182" duration="706000" />
+      <workItem from="1608796905710" duration="2806000" />
+      <workItem from="1608887428522" duration="3112000" />
+      <workItem from="1608902451821" duration="2848000" />
+      <workItem from="1608907037425" duration="4288000" />
+      <workItem from="1608911857444" duration="963000" />
     </task>
     <servers />
   </component>

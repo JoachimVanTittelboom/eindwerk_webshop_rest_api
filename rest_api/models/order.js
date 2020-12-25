@@ -16,6 +16,7 @@ const Order = {
     },
     postNewOrder: (newOrder) => {
         return new Promise((resolve, reject) => {
+            console.log(newOrder);
             let query = 'INSERT INTO orders(OrderDate,FirstName,LastName,Street,Number,PostalCode,City,Telephone,Email,TotalPrice) ' +
                 'Values(?,?,?,?,?,?,?,?,?,?)';
             db.query(query,
@@ -24,7 +25,7 @@ const Order = {
                     if (err) reject(err)
                     let orderId = orders.insertId;
                     newOrder.Products.forEach(product =>
-                        addProducts(product, orderId)
+                        addProducts(product, orderId,resolve)
                     )
                 })
         })
@@ -32,7 +33,7 @@ const Order = {
 
 }
 
-const addProducts = (product, orderId) => {
+const addProducts = (product, orderId,resolve) => {
     db.query('INSERT INTO webshop.orderline(OrderId,ProductId,Quantity,Price)' +
         'Values(?,?,?,?)', [orderId, product.Id, product.Quantity, product.Price],
         (err, orderProducts) => {

@@ -4,7 +4,7 @@ const OrderController = require('../Controller/orderController');
 const {check, validationResult} = require('express-validator');
 
 
-router.get('/:id',OrderController.getOrderById)
+router.get('/:id', OrderController.getOrderById)
 router.post('/', [
         check('FirstName', "Please fill in firstname.").not().isEmpty(),
         check('LastName', "Please fill in lastname.").not().isEmpty(),
@@ -16,6 +16,7 @@ router.post('/', [
         check('Email', "Please fill in email.").isEmail().normalizeEmail().not().isEmpty(),
         check('TotalPrice', "Please fill in telephone number.").not().isEmpty()],
     (req, res) => {
+        console.log(req)
         const errors = validationResult(req)
         if (!errors.isEmpty()) {
             res.send(errors)

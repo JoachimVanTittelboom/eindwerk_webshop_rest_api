@@ -1,6 +1,7 @@
 const Order = require('../models/order');
 
 exports.postNewOrder=(req,res)=>{
+    console.log(req)
     Order.postNewOrder(req)
         .then(orders =>res.json(orders))
         .catch(err=>res.send(err))

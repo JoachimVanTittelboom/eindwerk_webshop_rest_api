@@ -7,7 +7,6 @@ const helmet = require("helmet");
 
 app.use(helmet());
 app.use(bodyParser.json());
+app.use('/api/IndoorFootballBoots',productsRoute);
 app.use('/api/shoppingCart',orderRoute)
-app.use('/api/products',productsRoute);
-
 app.listen(5000);
